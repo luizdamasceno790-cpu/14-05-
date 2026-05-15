@@ -15,7 +15,25 @@
     padding: 1rem,;
 }
 
-/* .painel {
+.painel {
     position: relative;
-    border-radius: ;
-} */
+    border-radius: .5rem;
+    overflow: hidden;
+}
+
+.imagem {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.sobreposicao {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0, 0.3);
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
